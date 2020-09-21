@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^\/?(?!.*index\.php)(.*)$ /te-root/index.php?page=$1 [PT,QSA]
