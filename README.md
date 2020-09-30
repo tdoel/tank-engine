@@ -15,7 +15,7 @@ Run the following commands:
 4. `git submodule init`
 5. `git submodule update --remote --recursive`
 
-Now copy ~/framework/boot/0.config.php to ~/application.boot/0.config.php (~ represents the document root specified above). Open the newly created file and change all constants to values that correspond to your project.
+Now copy /framework/boot/0.config.php to /application.boot/0.config.php. Open the newly created file and change all constants to values that correspond to your project.
 
 Open .htacces. The `te_root` depening on your project's url, this piece should be removed or replaced with something else.
 Say your url_root is www.example.com, remove it. But if it is www.example.com/exampleproject (so default route is www.example.com/exampleproject/home/index) than replace it with `exampleproject`.
