@@ -177,4 +177,3 @@ class model_user Extends wp_model
     }
   }
 }
-?>

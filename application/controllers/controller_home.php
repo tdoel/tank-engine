@@ -7,4 +7,3 @@ class controller_home Extends te_controller
     return new te_layout_view("home");
   }
 }
-?>

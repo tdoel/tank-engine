@@ -12,4 +12,3 @@ class te_layout_view Extends te_view
     tank_engine::add_css("main");
   }
 }
-?>
