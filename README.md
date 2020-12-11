@@ -19,3 +19,7 @@ Now copy /framework/boot/0.config.php to /application.boot/0.config.php. Open th
 
 Open .htacces. The `te_root` depening on your project's url, this piece should be removed or replaced with something else.
 Say your url_root is www.example.com, remove it. But if it is www.example.com/exampleproject (so default route is www.example.com/exampleproject/home/index) than replace it with `exampleproject`.
+
+## Update tank-engine-core
+To update the [tank-engine-core](https://github.com/tdoel/tank-engine-core/wiki) (that resides in the framework wing of your project) run:
+`git submodule foreach git pull origin master`
