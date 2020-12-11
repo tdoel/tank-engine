@@ -1,2 +1,12 @@
 RewriteEngine On
-RewriteRule ^\/?(?!.*index\.php)(.*)$ /te-root/index.php?page=$1 [PT,QSA]
+
+## Domain
+# Uncomment this if your project is located at its own domain. For eample, if
+# "www.example.com" points to your project.
+#RewriteRule ^\/?(?!.*index\.php)(.*)$ /index.php?page=$1 [PT,QSA]
+
+## Specific directory
+# Uncomment this if your project is located at a specific directory on your
+# domain. For example, if "www.example.com/path/to/dir" points to your project.
+# Replace "<dir>" in this line with "path/to/dir".
+#RewriteRule ^\/?(?!.*index\.php)(.*)$ /<dir>/index.php?page=$1 [PT,QSA]
