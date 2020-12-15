@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title><?= tank_engine::get_title(); ?></title>
+    <link rel="shortcut icon" href="<?= $this->link("application/img/te_logo.svg"); ?>" />
     <?php  tank_engine::render_rescources(); ?>
   </head>
   <body>
